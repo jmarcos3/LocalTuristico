@@ -1,0 +1,77 @@
+/* variaveis cores */
+:root{
+  --background-default: #F5F4F0;
+  --border-primary: #D9D9D9;
+  /* Text */
+  --text-primary: #1b1b1b;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #E1624F;
+  /* Accent */
+  --accent-blue: #0C51A7;
+  --accent-orange: #E95E10;
+  --accent-pink: #E5245E;
+  --accent-purple: #591B98;
+
+}
+
+/* Tipografia */
+*{
+  font-family: "Open Sans";
+  margin: 0px;
+}
+
+h1{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#headline{
+  font-size: 16px;
+  font-weight: bold;
+
+  color: var(--text-headline)
+}
+
+p{
+  font-size: 16px; 
+  
+}
+
+#subtitle {
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  color: var(--text-secondary)
+}
+
+/* ---- */
+
+#img{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#container{
+  width: 1120px;
+  height: 3054px;
+  margin: 88px auto ;
+
+  box-sizing: border-box;
+}
+
+img{
+  width: 1120px;
+  height: 660px;
+  border-radius: 28px;
+}
