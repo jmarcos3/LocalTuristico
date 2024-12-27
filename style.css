@@ -19,6 +19,7 @@
 *{
   font-family: "Open Sans";
   margin: 0px;
+  background-color: var(--background-default);
 }
 
 h1{
@@ -108,7 +109,6 @@ ol{
 
 ul li::marker{
   color: var(--text-secondary);
-
 }
 
 #list ul{
@@ -117,7 +117,37 @@ ul li::marker{
   margin-bottom: 48px;
 }
 
+/* different colorações da lista */
+
+li.colorA{
+  color: var(--accent-blue);
+  font-weight: bold;
+}
+
+li.colorB{
+  color: var(--accent-purple);
+  font-weight: bold;
+}
+
+li.colorC{
+  color: var(--accent-pink);
+  font-weight: bold;
+}
+
+li.colorD{
+  color: var(--accent-orange);
+  font-weight: bold;
+}
+
+#ending{
+  font-size: 16px;
+  text-align: center;
+  color: var(--text-secondary)
+}
+
 footer{
+  font-family: "Alice", serif;
   text-align: center;
   padding: 65px 0 48px;
 }
+
