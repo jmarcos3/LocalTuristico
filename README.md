@@ -1,6 +1,6 @@
 # Desafio Local Turístico
 
-Esse é um projeto onde densevolvi uma pagina web com informações sobre um determinado local turistíco, o local escolhido foi Gramado/RS. Este projeto foi desenvolvido utilizando HTML e CSS.
+Esse é um projeto de uma pagina web com informações sobre um determinado local turistíco, o local escolhido foi Gramado/RS. Este projeto foi desenvolvido utilizando HTML e CSS com o intuito de exercitar os conceitos basicos.
 ![Projeto](.github/preview.png)
 Link: https://jmarcos3.github.io/LocalTuristico/
 
